@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Sam Liu <ontouchstart@gmail.com>
+# Based on https://github.com/JuliaLang/julia/blob/master/contrib/vagrant/Vagrantfile
 
 RUN apt-get update -qq -y
 RUN apt-get install python-software-properties -y
