@@ -6,6 +6,4 @@
 
 # usage
 
-> docker pull ontouchstart/julia-master
-
-> docker run --rm -it ontouchstart/julia-master
+See [repl.sh](https://github.com/ontouchstart/julia-master/blob/master/REPL/repl.sh).
