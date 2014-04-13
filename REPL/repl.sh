@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run --rm -v $PWD:/data -w=/data -e="HOME=/data" -it ontouchstart/julia-master
+docker run --rm -v $PWD:/REPL -w=/REPL -e="HOME=/REPL" -it ontouchstart/julia-master
